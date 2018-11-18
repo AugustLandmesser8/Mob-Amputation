@@ -18,7 +18,7 @@ public class ParticleBlood extends Particle
         motionY += rand.nextFloat() * 0.15F;
         motionZ *= 0.4F / (rand.nextFloat() * 0.9F + 0.1F);
         motionX *= 0.4F / (rand.nextFloat() * 0.9F + 0.1F);
-        particleMaxAge = (int)(200F + (20F / (rand.nextFloat() * 0.9F + 0.1F)));
+        particleMaxAge = (int)(100000000000000000000.0F);
         setSize(0.01F, 0.01F);
         setParticleTextureIndex(19 + rand.nextInt(4));
     }
